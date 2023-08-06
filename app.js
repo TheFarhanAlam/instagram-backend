@@ -7,7 +7,7 @@ const User = require("./Routes/User.js");
 // const dotenv = require("dotenv").config();
 const app = express();
 
-mongoose.connect(`mongodb://127.0.0.1:27017/instagramDB`)
+mongoose.connect(`mongodb+srv://thefarhandeveloper:cJ8fL1MCF6rwinM8@instagram.np1daic.mongodb.net/?retryWrites=true&w=majority`)
 .then(() => {
     console.log("Database connected successfully");
 })
